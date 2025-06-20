@@ -12,6 +12,7 @@ app.post('/ussd', (req, res) => {
 
   const input = text.split('*');
   const level = input.length;
+  
 
   let response = '';
   res.set('Content-Type', 'text/plain');
